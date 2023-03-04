@@ -1,0 +1,206 @@
+
+/* General Css  */
+
+
+    body{
+        font-family: 'Ubuntu';
+    }
+
+    h1,h3,h2{
+        font-family: "Montserrat";       
+    }
+
+    p{
+        color: #8f8f8f;
+        font-weight: 400;
+    }
+
+    .big-heading{
+        line-height: 1.5;
+        font-size: 4rem;
+        color: #fff;
+    }
+
+    .logo{
+        width:8%;
+    }
+
+    .row{
+        text-align: center;
+    }
+
+    .coloured{
+        background-color: #ff4c68;
+        color: #fff;
+    }
+
+    .white{
+        background-color: #fff;
+    }
+
+
+/* navigation bar designs */
+
+
+    .navbar-brand{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .nav-item{
+        padding:0px 15px;
+    }
+
+    .navbar{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 4.5rem;
+    }
+
+    .navbar-nav{
+        font-size:1.3rem;
+        padding-left: 10px;
+        padding-top: 5px;       
+    }
+
+
+/* title Css / first page Css */
+ 
+    .download{
+        margin: 5% 2% 0 0; /* buttons CSS*/
+    }
+
+    .dog{     
+        width: 45%;
+    }
+
+    .container-fluid{
+        padding: 3% 15% 7.5%;
+    }
+
+
+/* features section css */
+
+
+    #features{
+        padding: 7% 15%;
+        position: relative;
+    }
+
+    .col-features{
+        text-align: center;
+        padding: 5%;
+    }
+
+    .icon-features{
+        color: #ef8172;
+        margin-bottom: 1rem;
+    }
+
+    .icon-features:hover{
+        color: #ff4c68;
+    }
+
+
+/* Testimoial Section CSS */
+
+    #testimonials{
+        text-align: center;
+        background-color: #ef8172;
+    }
+
+    .h2-testimonials{
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    .img-testimonials{
+        width:15%;
+        border-radius: 110%;
+        margin: 20px;
+    }
+
+    #press{
+        background-color: #ef8172;
+        padding-bottom: 3.5%;
+        text-align: center;
+    }
+
+    .press-items{
+        width: 10%;
+        margin: 30px 20px 50px;
+    }
+
+    .carousel-item{
+        padding: 7% 15%;
+    }
+
+
+
+/* pricing Section CSS */
+
+    #pricing{
+        padding: 100px;
+        text-align: center;
+    }
+
+    .pricing-col{
+        padding: 4% 2%;
+    }
+
+    .pricing-heading{
+        width:100%;
+        font-family: "Montserrat";
+        font-size: 3rem;
+    }
+
+
+/* call to action section     */
+
+    #cta{
+        text-align: center;
+        padding: 7% 15%;
+    }
+    .cta-h3{
+            font-family: "Montserrat";
+            font-size: 3.5rem;
+            line-height: 1.5;
+            
+        }
+    .cta-btn{
+
+        margin: 38px 15px 0 0;
+        
+    }  
+    
+    
+/* footer and copyrigth section */
+    #footer{
+        text-align: center;
+        font-size: medium;
+        padding-top: 45px;
+        padding-bottom: 15px;
+    }
+
+    .footer-logo{
+        margin-right: 15px;
+        padding-bottom: 20px;
+        width: max-content;
+    }
+
+
+/* Media Query for responsive for mobile and tablets */
+
+    @media (min-width:992px) and (max-width:1350px) {
+        .dog{
+            margin-top: 25%;
+            width:70%;
+        }
+    } 
+
+    @media (max-width:988px) {
+        .dog{
+            margin-top: 15%;
+            width:40%;
+        }
+    }  
